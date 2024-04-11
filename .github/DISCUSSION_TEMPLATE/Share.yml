@@ -1,0 +1,32 @@
+body:
+  - type: input
+    id: appid
+    attributes:
+      label: appId
+      description: "Steam App Id"
+    validations:
+      required: true
+   - type: input
+    id: appName
+    attributes:
+      label: appName
+      description: "Steam App Name"
+    validations:
+      required: true  
+  - type: textarea
+    id: keys
+    attributes:
+      label: Keys
+      description: "密钥列表"
+      value: |
+        depotid;depotkey
+        depotid;depotkey
+    validations:
+      required: true
+      
+   - type: markdown
+      attributes:
+      value: |
+          此处上传清单附件
+     
+   
