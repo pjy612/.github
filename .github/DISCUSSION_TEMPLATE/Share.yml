@@ -26,6 +26,8 @@ body:
     id: manifests
     attributes:
       label: "清单附件"
+      placeholder: |
+        将清单附件拖拽到此处
     validations:
         required: true
    
