@@ -5,13 +5,7 @@ body:
     attributes:
       label: "Steam 游戏ID"
     validations:
-          required: true
-  - type: input
-    id: appName
-    attributes:
-      label: "Steam 游戏名称"
-    validations:
-          required: true  
+      required: true
   - type: textarea
     id: keys
     attributes:
@@ -21,7 +15,7 @@ body:
         depotid;depotkey
       render: hash
     validations:
-        required: true
+      required: true
   - type: textarea
     id: manifests
     attributes:
@@ -29,5 +23,8 @@ body:
       placeholder: |
         将清单附件拖拽到此处
     validations:
-        required: true
-   
+      required: true
+  - type: note
+    id: note
+    attributes:
+      label: "备注"      
