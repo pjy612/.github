@@ -24,7 +24,7 @@ body:
         将清单附件拖拽到此处
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: note
     attributes:
       label: "备注"      
