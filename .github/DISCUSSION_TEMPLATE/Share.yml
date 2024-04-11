@@ -19,7 +19,7 @@ body:
       placeholder: |
         depotid;depotkey
         depotid;depotkey
-    render: text
+    render: hash
     validations:
         required: true
   - type: textarea
